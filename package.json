@@ -1,0 +1,16 @@
+{
+  "name": "aternos-bot",
+  "version": "1.0.0",
+  "description": "A bot for Aternos Minecraft server",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js" // Optional: for development with auto-restart
+  },
+  "author": "krushna06",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2", // Add Express here
+    "mineflayer": "^2.37.1"
+  }
+}
