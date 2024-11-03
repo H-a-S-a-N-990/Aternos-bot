@@ -17,6 +17,7 @@ function createBot() {
   // Event when the bot is spawned
   bot.on('spawn', () => {
     console.log('Bot has spawned!');
+    bot.entity.visible = false; 
   });
 
   // Event when the bot encounters an error
